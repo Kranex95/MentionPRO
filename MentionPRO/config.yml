@@ -1,0 +1,58 @@
+# Don't touch version!!
+version: 1.4
+
+check-for-updates: true
+
+# Languages codes:
+# These codes need to be the same as the name of the language file in folder /MentionPRO/languages
+# Example:
+# en-US.yml --> Code en-US
+# es-ES.yml --> Code es-ES
+languages:
+- en-US
+- es-ES
+
+# This is the default language for MentionPRO
+language: en-US
+
+prefix: "&7[&9Mention&6PRO&7]"
+
+# Here you can change the mention character and color. This is used for detect the mention in chat and change the color. Example: @Kranex95. By default: @
+# For character: this is used for detect the mention in chat. Example: @Kranex95. By default: @
+# For color: this is used for change the color.
+# Staff: this is for staff only. The staff can mention with the colof of your choice and only the staff have this color. By default: §c (light red)
+# Vip: this is for vips only. The vip can mention with the colof of your choice and only the vip have this color. By default: §d (pink or light purple)
+# User: this is for user only. The user can mention with the colof of your choice and only the user have this color. By default: §e (light yellow)
+# IMPORTANT: For change the mention to the color of your choice, the user (user, vip and staff) need the correct permission for this color. If the user doesn't have the permission, the mention don't change to this color.
+mention:
+    character: '@'
+    color:
+        staff: "&c"
+        vip: "&d"
+        user: "&e"
+
+# Here you can choose how to display the list of sounds.
+# Available values: menu or list.
+# Default value: menu.
+sound-list:
+    type: menu
+    menu-rows: 1
+
+# This is the time for the title notification in screen, in seconds
+title-time: 3
+
+# available-sounds: You can choose from this list the sound is by default for all. The users can choose too between this list for their notification sound.
+# More sounds available in https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_NOTE_BLOCK_BANJO
+# sound: Here you can change the notification sound. By default is: pling
+notification:
+    available-sounds:
+    - pling
+    - iron_xylophone
+    - xylophone
+    - cow_bell
+    - flute
+    - didgeridoo
+    - bit
+    - bell
+    - banjo
+    sound: pling
