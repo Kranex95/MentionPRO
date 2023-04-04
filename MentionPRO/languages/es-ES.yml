@@ -1,0 +1,74 @@
+# Nombre de idioma
+language-name: Español
+
+help:
+    general:
+    - "&9/mentionpro help &8» &7Muestra la ayuda"
+    - "&9/mentionpro status &8» &7Muestra el estado de tus notificaciones"
+    - "&9/mentionpro <enable/disable> &8» &7Activa/desactiva todas tus notificaciones"
+    - "&9/mentionpro chat <enable/disable> &8» &7Activa/desactiva la notificación de chat"
+    - "&9/mentionpro title <enable/disable> &8» &7Activa/desactiva la notificación de titulo"
+    - "&9/mentionpro sound <enable/disable> &8» &7Activa/desactiva la notificación de sonido"
+    - "&9/mentionpro sound list &8» &7Muestra todos los sonidos disponibles"
+    - "&9/mentionpro sound change <sound> &8» &7Cambia la notificación de sonido"
+
+admin-help:
+    general:
+    - "&9/mentionpro language <language> &8» &7Cambia el idioma del plugin"
+    - "&9/mentionpro reload &8» &7Recarga el plugin"
+
+# MentionPRO Messages - You can remove empty lines and comments
+messages:
+    no-permission: "&cNo tienes permiso para usar este comando"
+    error: "&cError. Usa &e/mentionpro help"
+    general:
+        enabled-all: "&7Las notificaciones se han &aactivado"
+        disabled-all: "&7Las notificaciones se han &cdesactivado"
+        chat:
+            enabled: "&7La notificación de chat se ha &aactivado"
+            disabled: "&7La notificación de chat se ha &cdesactivado"
+        title:
+            enabled: "&7La notificación de titulo se ha &aactivado"
+            disabled: "&7La notificación de titulo se ha &cdesactivado"
+        sound:
+            enabled: "&7La notificación de sonido se ha &aactivado"
+            disabled: "&7La notificación de sonido se ha &cdesactivado"
+            change: "&aSonido cambiado a: &e"
+            help: "&cAñade el sonido al que deseas cambiar"
+            dont-exist: "&cEl sonido especificado no existe"
+            available: "&6Sonidos disponibles:"
+        error-enabled-all: "&7Las notificaciones ya están &aactivadas"
+        error-disabled-all: "&7Las notificaciones ya están &cdesactivadas"
+        error-enabled: "&7La notificación ya está &aactivada"
+        error-disabled: "&7La notificación ya está &cdesactivada"
+        error-not-enabled: "&cEl usuario no tiene las notificaciones activadas"
+        sounds-menu:
+            title: "&7Menu de sonidos"
+            icon:
+                title-color: "&6"
+                left-click-message: "&fClick izquierdo para usar"
+                right-click-message: "&fClick derecho para reproducir"
+
+admin-messages:
+    general:
+        reload: "&aEl plugin ha sido recargado"
+    language:
+        error-languagesapi: "&cError. La opción de soporte multi-idioma &eLanguagesAPI &cesta habilitada."
+        help-language: "&cAñade el idioma que deseas cambiar"
+        change-language: "&aIdioma cambiado a: &e"
+        language-dont-exist: "&cEl idioma especificado no existe"
+
+notification:
+    chat: "&7Hey, te han mencionado"
+    title: "&7Hey"
+    subtitle: "&7Te han mencionado"
+    title-own: "&7Hey"
+    subtitle-own: "&7Te has mencionado a ti mismo"
+
+labels:
+    enabled: "&aActivado"
+    disabled: "&cDesactivado"
+    alerts: "&6Alertas"
+    chat: "&6Chat"
+    title: "&6Titulo"
+    sound: "&6Sonido"
